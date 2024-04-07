@@ -19,7 +19,7 @@
   </modules>
 
   <description>Vert.x Clojure Implementation</description>
-  <url>https://github.com/tychobrailleur/vertx-lang-clojure</url>
+  <url>https://github.com/minosniu/vertx-lang-clojure</url>
 
   <licenses>
     <license>
@@ -35,9 +35,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:tychobrailleur/vertx-lang-clojure.git</connection>
-    <developerConnection>scm:git:git@github.com:tychobrailleur/vertx-lang-clojure.git</developerConnection>
-    <url>git@github.com:tychobrailleur/vertx-lang-clojure.git</url>
+    <connection>scm:git:git@github.com:minosniu/vertx-lang-clojure.git</connection>
+    <developerConnection>scm:git:git@github.com:minosniu/vertx-lang-clojure.git</developerConnection>
+    <url>git@github.com:minosniu/vertx-lang-clojure.git</url>
   </scm>
 
   <developers>
@@ -108,7 +108,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
+            <version>3.1.0</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
@@ -116,6 +116,10 @@
                 <goals>
                   <goal>sign</goal>
                 </goals>
+                <configuration>
+                  <keyname>E5C2C60875CAA5F35C338E60058CDC8093DC6BFA</keyname>
+                  <passphraseServerId>E5C2C60875CAA5F35C338E60058CDC8093DC6BFA</passphraseServerId>
+                </configuration>
               </execution>
             </executions>
           </plugin>
