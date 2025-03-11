@@ -6,7 +6,11 @@
   <parent>
     <groupId>com.sparcing</groupId>
     <artifactId>vertx-lang-clojure-parent</artifactId>
+<<<<<<< HEAD
     <version>4.5.13</version>
+=======
+    <version>4.5.7</version>
+>>>>>>> db6084722da56f6583eece4b54738bb057077c69
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
