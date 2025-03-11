@@ -5,13 +5,12 @@
   <parent>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-parent</artifactId>
-    <version>15</version>
+    <version>19</version>
   </parent>
 
-  <groupId>com.weblogism</groupId>
+  <groupId>com.sparcing</groupId>
   <artifactId>vertx-lang-clojure-parent</artifactId>
-
-  <version>4.1.0-SNAPSHOT</version>
+  <version>4.5.13</version>
   <packaging>pom</packaging>
 
   <modules>
@@ -43,18 +42,18 @@
 
   <developers>
     <developer>
-      <id>tychobrailleur</id>
-      <organization>Weblogism</organization>
-      <email>sebastien@weblogism.com</email>
+      <id>minosniu</id>
+      <organization>Sparcing</organization>
+      <email>niuchuanxin@sparcing.com</email>
     </developer>
   </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <clojure.version>1.10.3</clojure.version>
+    <clojure.version>1.11.4</clojure.version>
     <clojure.plugin.version>1.8.4</clojure.plugin.version>
     <junit.version>4.13</junit.version>
-    <stack.version>4.5.7</stack.version>
+    <stack.version>4.5.13</stack.version>
   </properties>
 
   <dependencyManagement>
