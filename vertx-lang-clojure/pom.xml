@@ -6,13 +6,13 @@
   <parent>
     <groupId>com.sparcing</groupId>
     <artifactId>vertx-lang-clojure-parent</artifactId>
-    <version>4.5.7</version>
+    <version>4.5.13</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>vertx-lang-clojure</artifactId>
-  <version>4.5.7</version>
+  <version>4.5.13</version>
 
   <properties>
     <log4j.version>1.2.17</log4j.version>
@@ -29,7 +29,7 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-codegen</artifactId>
-      <version>4.5.7</version>
+      <version>4.5.13</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -196,9 +196,9 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.weblogism</groupId>
+      <groupId>com.sparcing</groupId>
       <artifactId>vertx-lang-clojure-gen</artifactId>
-      <version>4.1.0-SNAPSHOT</version>
+      <version>4.5.13</version>
       <optional>true</optional>
     </dependency>
   </dependencies>
