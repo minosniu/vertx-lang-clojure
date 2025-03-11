@@ -10,7 +10,7 @@
 
   <groupId>com.sparcing</groupId>
   <artifactId>vertx-lang-clojure-parent</artifactId>
-  <version>4.5.13</version>
+  <version>4.5.7</version>
   <packaging>pom</packaging>
 
   <modules>
@@ -53,7 +53,7 @@
     <clojure.version>1.11.4</clojure.version>
     <clojure.plugin.version>1.8.4</clojure.plugin.version>
     <junit.version>4.13</junit.version>
-    <stack.version>4.5.13</stack.version>
+    <stack.version>4.5.7</stack.version>
   </properties>
 
   <dependencyManagement>

@@ -4,6 +4,8 @@ Vert.x Clojure support.
 This version has not been submitted to Maven Central, so you need to `mvn install` to use.
 See https://github.com/tychobrailleur/vertx-lang-clojure-example for examples of usage.
 
+Known problem: vertx-lang-clojure has a conflict with datomic in netty-transport-native
+
 ### How to use?
 
 In vertx-lang-clojure-gen/, run `mvn install` first.
