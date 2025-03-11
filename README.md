@@ -1,6 +1,8 @@
 # vertx-lang-clojure
 Vert.x Clojure support.
 
+Abandoned the gitflow branching model.
+
 This version has not been submitted to Maven Central, so you need to `mvn install` to use.
 See https://github.com/tychobrailleur/vertx-lang-clojure-example for examples of usage.
 
