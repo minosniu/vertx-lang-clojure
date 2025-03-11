@@ -6,11 +6,11 @@
   <parent>
     <groupId>com.sparcing</groupId>
     <artifactId>vertx-lang-clojure-parent</artifactId>
-    <version>4.5.7</version>
+    <version>4.5.13</version>
   </parent>
 
   <artifactId>vertx-lang-clojure-gen</artifactId>
-  <version>4.5.7</version>
+  <version>4.5.13</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

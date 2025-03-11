@@ -1,26 +1,30 @@
 # vertx-lang-clojure
 Vert.x Clojure support.
 
-Currently this fork is SNAPSHOT, so you need to `mvn install` to use.
+This version has not been submitted to Maven Central, so you need to `mvn install` to use.
 See https://github.com/tychobrailleur/vertx-lang-clojure-example for examples of usage.
 
 ### How to use?
 
+In vertx-lang-clojure-gen/, run `mvn install` first.
+
+Go back to vertx-lang-clojure/, run `mvn install` subsequently.
+
 Maven (in your pom.xml):
 ```xml
 <dependency>
-  <groupId>com.weblogism</groupId>
+  <groupId>com.sparcing</groupId>
   <artifactId>vertx-lang-clojure</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>4.5.13</version>
 </dependency>
 ```
 
 Leiningen (in your `project.clj`):
 
 ```clojure
-  :dependencies [[org.clojure/clojure "1.10.0"]
-                 [io.vertx/vertx-web "4.0.0-SNAPSHOT"]
-                 [com.weblogism/vertx-lang-clojure "4.0.0-SNAPSHOT"]]
+  :dependencies [[org.clojure/clojure "1.11.4"]
+                 [io.vertx/vertx-web "4.5.13"]
+                 [com.sparcing/vertx-lang-clojure "4.5.13"]]
 ```
 
 
